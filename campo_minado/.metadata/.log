@@ -103,3 +103,42 @@ java.io.FileNotFoundException: /Users/guilhermeteixeiragomes/projetos/estudo_jav
 
 !ENTRY org.eclipse.core.resources 2 10035 2024-09-17 20:37:30.965
 !MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-09-18 15:52:04.511 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/guilhermeteixeiragomes/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/guilhermeteixeiragomes/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-18 15:52:06.889
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-18 15:52:52.573
+!MESSAGE Logback config file: /Users/guilhermeteixeiragomes/projetos/estudo_java/campo_minado/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+!SESSION 2024-09-18 15:55:33.982 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/guilhermeteixeiragomes/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/guilhermeteixeiragomes/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-18 15:55:35.667
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-18 15:55:40.062
+!MESSAGE Logback config file: /Users/guilhermeteixeiragomes/projetos/estudo_java/campo_minado/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+!SESSION 2024-09-18 15:59:52.440 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=22.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/guilhermeteixeiragomes/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.jee.product -keyring /Users/guilhermeteixeiragomes/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-18 15:59:54.316
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-18 15:59:59.386
+!MESSAGE Logback config file: /Users/guilhermeteixeiragomes/projetos/estudo_java/campo_minado/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml

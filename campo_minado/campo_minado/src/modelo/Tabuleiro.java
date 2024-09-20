@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.Predicate;
 
+import excecao.ExplosaoException;
+
 public class Tabuleiro {
 	
 	private int linhas;
@@ -24,8 +26,14 @@ public class Tabuleiro {
 	}
 	
 	public void abrir(int linha, int coluna) {
-		campos.stream().filter(c -> c.getLinha() == linha && c.getColuna() == coluna).findFirst()
-		.ifPresent(c -> c.abrir());
+		try {
+			campos.stream().filter(c -> c.getLinha() == linha && c.getColuna() == coluna).findFirst()
+			.ifPresent(c -> c.abrir());
+		} catch (ExplosaoException e) {
+			campos.forEach(c -> c.setAberto(true));
+			throw e;
+		}
+		
 	}
 	
 	public void alternarMarcacao(int linha, int coluna) {

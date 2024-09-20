@@ -17,18 +17,26 @@ public class Tabuleiro {
 		this.minas = minas;
 		
 		gerarCampos();
-		associarOsVizinhos();
+		associarVizinhos();
 		sortearMinas();
 	}
 
 
 	private void gerarCampos() {
-		for (int i = 0; i )
+		for (int linha = 0; linha < linhas; linha++ ) {
+			for (int coluna = 0; coluna < colunas; coluna++) {
+				campos.add(new Campo(linha,coluna));
+			}
+		}
 		
 	}
 	
-	private void associarOsVizinhos() {
-		// TODO Auto-generated method stub
+	private void associarVizinhos() {
+		for  (Campo c1: campos) {
+			for (Campo c2: campos) {
+				c1.adicionarVizinho(c2);
+			}
+		}
 		
 	}
 	

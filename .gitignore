@@ -1,0 +1,32 @@
+
+# Diretórios da IDE
+/.metadata/
+/.classpath
+/.project
+/.settings/
+/.vscode/
+
+# Arquivos de compilação
+/bin/
+/target/
+/out/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências baixadas
+/.mvn/
+/.gradle/
+/node_modules/
+
+# Arquivos de backup
+*.bak
+*.swp
+
+# Arquivos JARs e WARs gerados
+*.jar
+*.war

@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.Optional;
 
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.model.entities.Produto;
@@ -22,8 +24,8 @@ public class ProdutoController {
   @Autowired
   private ProdutoRepository produtoRepository;
 
-  @PostMapping
-  public Produto novoProduto(@Valid Produto produto) {
+  @RequestMapping(method = {RequestMethod.POST, RequestMethod.PUT})
+  public Produto salvarProduto (@Valid Produto produto) {
     produtoRepository.save(produto);
     return produto;
   }
@@ -37,5 +39,12 @@ public class ProdutoController {
   public Optional<Produto> obterProdutoPorId(@PathVariable int id){
     return produtoRepository.findById(id);
   }
+
+
+  // @PutMapping()
+  // public Produto alterarProduto(@Valid Produto produto) {
+  //   produtoRepository.save(produto);
+  //   return produto;
+  // }
 
 }

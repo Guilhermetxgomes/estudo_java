@@ -24,7 +24,9 @@ public class Produto {
   @Max(1)
   private double desconto;
 
+  public Produto (){
 
+  }
 
 
 
